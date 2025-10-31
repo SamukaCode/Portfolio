@@ -3,7 +3,7 @@
 Este projeto é o meu **portfólio pessoal**, desenvolvido para apresentar meus trabalhos, projetos e experiências como **Desenvolvedor Web**.
 
 ## 🚀 Acesse o Portfólio
-🔗 [Clique aqui para visitar o site](https://samuelcamargo.com)
+🔗 [Clique aqui para visitar o site](https://samukacode.github.io/Portfolio/)
 
 ## 🛠️ Tecnologias Utilizadas
 - HTML5  
