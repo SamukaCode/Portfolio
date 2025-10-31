@@ -1,376 +1,338 @@
 <!DOCTYPE html>
 <html lang="pt">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Portfólio | Samuel Camargo | Desenvolvedor Web</title>
-    <meta name="description" content="Portfolio Template for Developer" />
 
-    <link rel="stylesheet" href="css/style.css" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Portfólio | Samuel Camargo | Desenvolvedor Web</title>
+  <meta name="description" content="Portfolio Template for Developer" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <header class="header">
-      <div class="header__content">
-        <div class="header__logo-container">
-          <div class="header__logo-img-cont">
-            <img
-              src="./assets/png/samuel.png"
-              alt="Imagem de Perfil - Samuel Camargo"
-              class="header__logo-img"
-            />
+  <link rel="stylesheet" href="css/style.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__content">
+      <div class="header__logo-container">
+        <div class="header__logo-img-cont">
+          <img src="./assets/png/samuel.png" alt="Imagem de Perfil - Samuel Camargo" class="header__logo-img" />
+        </div>
+        <span class="header__logo-sub">Samuel Camargo</span>
+      </div>
+      <div class="header__main">
+        <ul class="header__links">
+          <li class="header__link-wrapper">
+            <a href="./index.html" class="header__link"> Home </a>
+          </li>
+          <li class="header__link-wrapper">
+            <a href="./index.html#about" class="header__link">Sobre Mim </a>
+          </li>
+          <li class="header__link-wrapper">
+            <a href="./index.html#projects" class="header__link">
+              Projetos
+            </a>
+          </li>
+          <li class="header__link-wrapper">
+            <a href="./index.html#contact" class="header__link"> Contato </a>
+          </li>
+        </ul>
+        <div class="header__main-ham-menu-cont">
+          <img src="./assets/svg/ham-menu.svg" alt="hamburger menu" class="header__main-ham-menu" />
+          <img src="./assets/svg/ham-menu-close.svg" alt="hamburger menu close"
+            class="header__main-ham-menu-close d-none" />
+        </div>
+      </div>
+    </div>
+    <div class="header__sm-menu">
+      <div class="header__sm-menu-content">
+        <ul class="header__sm-menu-links">
+          <li class="header__sm-menu-link">
+            <a href="./index.html"> Home </a>
+          </li>
+
+          <li class="header__sm-menu-link">
+            <a href="./index.html#about"> Sobre Mim </a>
+          </li>
+
+          <li class="header__sm-menu-link">
+            <a href="./index.html#projects"> Projetos </a>
+          </li>
+
+          <li class="header__sm-menu-link">
+            <a href="./index.html#contact"> Contato </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <section class="home-hero">
+    <div class="home-hero__content">
+      <h1 class="heading-primary">Olá, Eu sou o Samuel</h1>
+      <div class="home-hero__info">
+        <p class="text-primary">
+          Engenheiro de software em constante evolução. <br>
+          Acredito que cada linha de código tem o poder de transformar ideias em soluções que impactam pessoas e criam
+          um futuro melhor.
+        </p>
+      </div>
+    </div>
+    <div class="home-hero__socials">
+      <div class="home-hero__social">
+        <a href="https://www.linkedin.com/in/samuel--camargo/" class="home-hero__social-icon-link">
+          <img src="./assets/png/linkedin-ico.png" alt="icon" class="home-hero__social-icon" />
+        </a>
+      </div>
+      <div class="home-hero__social">
+        <a href="https://github.com/SamukaCode" class="home-hero__social-icon-link">
+          <img src="./assets/png/github-ico.png" alt="icon" class="home-hero__social-icon" />
+        </a>
+      </div>
+      <div class="home-hero__social">
+        <a href="https://wa.me/5519996298190" class="home-hero__social-icon-link">
+          <img src="./assets/svg/whatsapp.svg" alt="icon" class="home-hero__social-icon"
+            style="filter: brightness(0) invert(1);" />
+        </a>
+      </div>
+    </div>
+    <div class="home-hero__mouse-scroll-cont">
+      <div class="mouse"></div>
+    </div>
+  </section>
+  <section id="about" class="about sec-pad">
+    <div class="main-container">
+      <h2 class="heading heading-sec heading-sec__mb-med">
+        <span class="heading-sec__main">Sobre Mim</span>
+        <span class="heading-sec__sub">
+          Engenheiro de Software apaixonado por criar soluções web eficientes e inovadoras, unindo tecnologia e
+          propósito para gerar impacto real. </span>
+      </h2>
+      <div class="about__content">
+        <div class="about__content-main">
+          <h3 class="about__content-title">Conheça-me melhor!</h3>
+          <div class="about__content-details">
+            <p class="about__content-details-para">
+              E aí! Eu sou <strong>Samuel</strong> e atualmente trabalho como <strong>Desenvolvedor Web</strong>.
+            </p>
+            <p class="about__content-details-para">
+              Sou apaixonado por tecnologia. Tenho experiência com diversas aplicações web de diferentes setores, sempre
+              buscando criar experiências digitais de alto impacto.
+              Fique à vontade para <strong>entrar em contato</strong> comigo!
+            </p>
           </div>
-          <span class="header__logo-sub">Samuel Camargo</span>
+          <a href="./#contact" class="btn btn--med btn--theme dynamicBgClr">Fale comigo</a>
         </div>
-        <div class="header__main">
-          <ul class="header__links">
-            <li class="header__link-wrapper">
-              <a href="./index.html" class="header__link"> Home </a>
-            </li>
-            <li class="header__link-wrapper">
-              <a href="./index.html#about" class="header__link">Sobre Mim </a>
-            </li>
-            <li class="header__link-wrapper">
-              <a href="./index.html#projects" class="header__link">
-                Projetos
-              </a>
-            </li>
-            <li class="header__link-wrapper">
-              <a href="./index.html#contact" class="header__link"> Contato </a>
-            </li>
-          </ul>
-          <div class="header__main-ham-menu-cont">
-            <img
-              src="./assets/svg/ham-menu.svg"
-              alt="hamburger menu"
-              class="header__main-ham-menu"
-            />
-            <img
-              src="./assets/svg/ham-menu-close.svg"
-              alt="hamburger menu close"
-              class="header__main-ham-menu-close d-none"
-            />
-          </div>
-        </div>
-      </div>
-      <div class="header__sm-menu">
-        <div class="header__sm-menu-content">
-          <ul class="header__sm-menu-links">
-            <li class="header__sm-menu-link">
-              <a href="./index.html"> Home </a>
-            </li>
-
-            <li class="header__sm-menu-link">
-              <a href="./index.html#about"> Sobre Mim </a>
-            </li>
-
-            <li class="header__sm-menu-link">
-              <a href="./index.html#projects"> Projetos </a>
-            </li>
-
-            <li class="header__sm-menu-link">
-              <a href="./index.html#contact"> Contato </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </header>
-    <section class="home-hero">
-      <div class="home-hero__content">
-        <h1 class="heading-primary">Olá, Eu sou o Samuel</h1>
-        <div class="home-hero__info">
-          <p class="text-primary">
-            Engenheiro de software em constante evolução. <br>
-Acredito que cada linha de código tem o poder de transformar ideias em soluções que impactam pessoas e criam um futuro melhor.
-          </p>
-        </div>
-        <!-- <div class="home-hero__cta">
-          <a href="./#projects" class="btn btn--bg">Projects</a>
-        </div> -->
-      </div>
-      <div class="home-hero__socials">
-        <div class="home-hero__social">
-          <a href="https://www.linkedin.com/in/samuel--camargo/" class="home-hero__social-icon-link">
-            <img
-              src="./assets/png/linkedin-ico.png"
-              alt="icon"
-              class="home-hero__social-icon"
-            />
-          </a>
-        </div>
-        <div class="home-hero__social">
-          <a href="https://github.com/SamukaCode" class="home-hero__social-icon-link">
-            <img
-              src="./assets/png/github-ico.png"
-              alt="icon"
-              class="home-hero__social-icon"
-            />
-          </a>
-        </div>
-        <div class="home-hero__social">
-          <a href="https://wa.me/5519996298190" class="home-hero__social-icon-link">
-            <img
-              src="./assets/svg/whatsapp.svg"
-              alt="icon"
-              class="home-hero__social-icon"
-              style="filter: brightness(0) invert(1);"
-            />
-          </a>
-        </div>
-      </div>
-      <div class="home-hero__mouse-scroll-cont">
-        <div class="mouse"></div>
-      </div>
-    </section>
-    <section id="about" class="about sec-pad">
-      <div class="main-container">
-        <h2 class="heading heading-sec heading-sec__mb-med">
-          <span class="heading-sec__main">Sobre Mim</span>
-          <span class="heading-sec__sub">
-            Engenheiro de Software apaixonado por criar soluções web eficientes e inovadoras, unindo tecnologia e propósito para gerar impacto real.          </span>
-        </h2>
-        <div class="about__content">
-          <div class="about__content-main">
-            <h3 class="about__content-title">Conheça-me melhor!</h3>
-            <div class="about__content-details">
-              <p class="about__content-details-para">
-                E aí! Eu sou <strong>Samuel</strong> e atualmente trabalho como <strong>Desenvolvedor Web</strong>.
-              </p>
-              <p class="about__content-details-para">
-                Sou apaixonado por tecnologia. Tenho experiência com diversas aplicações web de diferentes setores, sempre buscando criar experiências digitais de alto impacto.  
-                Fique à vontade para <strong>entrar em contato</strong> comigo!
-              </p>
-            </div>
-            <a href="./#contact" class="btn btn--med btn--theme dynamicBgClr"
-              >Fale comigo</a
-            >
-          </div>
-          <div class="about__content-skills">
-            <h3 class="about__content-title">Principais Tecnologias Utilizadas</h3>
-            <div class="skills">
-              <div class="skills__skill">HTML</div>
-              <div class="skills__skill">CSS</div>
-              <div class="skills__skill">BootStrap</div>
-              <div class="skills__skill">JavaScript</div>
-              <div class="skills__skill">Vue.js</div>
-              <div class="skills__skill">PHP</div>
-              <div class="skills__skill">Python</div>
-              <div class="skills__skill">MySQL</div>
-              <div class="skills__skill">APIs</div>
-              <div class="skills__skill">Git e GitHub</div>
-              <div class="skills__skill">Power BI</div>
-            </div>
+        <div class="about__content-skills">
+          <h3 class="about__content-title">Principais Tecnologias Utilizadas</h3>
+          <div class="skills">
+            <div class="skills__skill">HTML</div>
+            <div class="skills__skill">CSS</div>
+            <div class="skills__skill">BootStrap</div>
+            <div class="skills__skill">JavaScript</div>
+            <div class="skills__skill">Vue.js</div>
+            <div class="skills__skill">PHP</div>
+            <div class="skills__skill">Python</div>
+            <div class="skills__skill">MySQL</div>
+            <div class="skills__skill">APIs</div>
+            <div class="skills__skill">Git e GitHub</div>
+            <div class="skills__skill">Power BI</div>
           </div>
         </div>
       </div>
-    </section>
-    <section id="projects" class="projects sec-pad">
-      <div class="main-container">
-        <h2 class="heading heading-sec heading-sec__mb-bg">
-          <span class="heading-sec__main">Projetos</span>
-          <span class="heading-sec__sub">
-            Confira alguns dos projetos que desenvolvi :)
+    </div>
+  </section>
+  <section id="projects" class="projects sec-pad">
+    <div class="main-container">
+      <h2 class="heading heading-sec heading-sec__mb-bg">
+        <span class="heading-sec__main">Projetos</span>
+        <span class="heading-sec__sub">
+          Confira alguns dos projetos que desenvolvi :)
+        </span>
+      </h2>
+
+      <div class="projects__content">
+        <div class="projects__row">
+          <div class="projects__row-img-cont">
+            <img src="./assets/png/duasRodas.png" alt="Software Screenshot" class="projects__row-img" loading="lazy" />
+          </div>
+          <div class="projects__row-content">
+            <h3 class="projects__row-content-title">Duas Rodas</h3>
+            <p class="projects__row-content-desc">
+              Aplicação web desenvolvida para comparação de motocicletas, com recurso de seleção de marca e modelo e
+              exibição detalhada de especificações lado a lado.
+            </p>
+            <a href="https://github.com/SamukaCode/Comparador-de-Motos" target="_blank" class="btn-github">
+              <svg viewBox="0 0 24 24" fill="currentColor" height="28" width="28" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M12.001 2C6.47598 2 2.00098 6.475 2.00098 12C2.00098 16.425 4.86348 20.1625 8.83848 21.4875C9.33848 21.575 9.52598 21.275 9.52598 21.0125C9.52598 20.775 9.51348 19.9875 9.51348 19.15C7.00098 19.6125 6.35098 18.5375 6.15098 17.975C6.03848 17.6875 5.55098 16.8 5.12598 16.5625C4.77598 16.375 4.27598 15.9125 5.11348 15.9C5.90098 15.8875 6.46348 16.625 6.65098 16.925C7.55098 18.4375 8.98848 18.0125 9.56348 17.75C9.65098 17.1 9.91348 16.6625 10.201 16.4125C7.97598 16.1625 5.65098 15.3 5.65098 11.475C5.65098 10.3875 6.03848 9.4875 6.67598 8.7875C6.57598 8.5375 6.22598 7.5125 6.77598 6.1375C6.77598 6.1375 7.61348 5.875 9.52598 7.1625C10.326 6.9375 11.176 6.825 12.026 6.825C12.876 6.825 13.726 6.9375 14.526 7.1625C16.4385 5.8625 17.276 6.1375 17.276 6.1375C17.826 7.5125 17.476 8.5375 17.376 8.7875C18.0135 9.4875 18.401 10.375 18.401 11.475C18.401 15.3125 16.0635 16.1625 13.8385 16.4125C14.201 16.725 14.5135 17.325 14.5135 18.2625C14.5135 19.6 14.501 20.675 14.501 21.0125C14.501 21.275 14.6885 21.5875 15.1885 21.4875C19.259 20.1133 21.9999 16.2963 22.001 12C22.001 6.475 17.526 2 12.001 2Z">
+                </path>
+              </svg>
+              <span>Ver no GitHub</span>
+            </a>
+          </div>
+        </div>
+        <div class="projects__row">
+          <div class="projects__row-img-cont">
+            <img src="./assets/png/parqueComputacional.jpeg" alt="Software Screenshot" class="projects__row-img"
+              loading="lazy" />
+          </div>
+          <div class="projects__row-content">
+            <h3 class="projects__row-content-title">Parque Computacional</h3>
+            <p class="projects__row-content-desc">
+              Plataforma web desenvolvida para a Secretaria Acadêmica da Unicamp, com o objetivo de gerenciar todos os
+              equipamentos e ferramentas tecnológicas da instituição.
+            </p>
+            <a href="https://github.com/SamukaCode/parque-computacional" target="_blank" class="btn-github">
+              <svg viewBox="0 0 24 24" fill="currentColor" height="28" width="28" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M12.001 2C6.47598 2 2.00098 6.475 2.00098 12C2.00098 16.425 4.86348 20.1625 8.83848 21.4875C9.33848 21.575 9.52598 21.275 9.52598 21.0125C9.52598 20.775 9.51348 19.9875 9.51348 19.15C7.00098 19.6125 6.35098 18.5375 6.15098 17.975C6.03848 17.6875 5.55098 16.8 5.12598 16.5625C4.77598 16.375 4.27598 15.9125 5.11348 15.9C5.90098 15.8875 6.46348 16.625 6.65098 16.925C7.55098 18.4375 8.98848 18.0125 9.56348 17.75C9.65098 17.1 9.91348 16.6625 10.201 16.4125C7.97598 16.1625 5.65098 15.3 5.65098 11.475C5.65098 10.3875 6.03848 9.4875 6.67598 8.7875C6.57598 8.5375 6.22598 7.5125 6.77598 6.1375C6.77598 6.1375 7.61348 5.875 9.52598 7.1625C10.326 6.9375 11.176 6.825 12.026 6.825C12.876 6.825 13.726 6.9375 14.526 7.1625C16.4385 5.8625 17.276 6.1375 17.276 6.1375C17.826 7.5125 17.476 8.5375 17.376 8.7875C18.0135 9.4875 18.401 10.375 18.401 11.475C18.401 15.3125 16.0635 16.1625 13.8385 16.4125C14.201 16.725 14.5135 17.325 14.5135 18.2625C14.5135 19.6 14.501 20.675 14.501 21.0125C14.501 21.275 14.6885 21.5875 15.1885 21.4875C19.259 20.1133 21.9999 16.2963 22.001 12C22.001 6.475 17.526 2 12.001 2Z">
+                </path>
+              </svg>
+              <span>Ver no GitHub</span>
+            </a>
+          </div>
+        </div>
+        <div class="projects__row">
+          <div class="projects__row-img-cont">
+            <img src="./assets/png/site_igreja.png" alt="Software Screenshot" class="projects__row-img"
+              loading="lazy" />
+          </div>
+          <div class="projects__row-content">
+            <h3 class="projects__row-content-title">IEQ Cervezão</h3>
+            <p class="projects__row-content-desc">
+              Site institucional desenvolvido para a Igreja do Evangelho Quadrangular do Cervezão, em Rio Claro-SP, com
+              o objetivo de apresentar a igreja e compartilhar informações relevantes para membros e visitantes.
+            </p>
+            <a href="https://github.com/SamukaCode/Site_Igreja" target="_blank" class="btn-github">
+              <svg viewBox="0 0 24 24" fill="currentColor" height="28" width="28" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M12.001 2C6.47598 2 2.00098 6.475 2.00098 12C2.00098 16.425 4.86348 20.1625 8.83848 21.4875C9.33848 21.575 9.52598 21.275 9.52598 21.0125C9.52598 20.775 9.51348 19.9875 9.51348 19.15C7.00098 19.6125 6.35098 18.5375 6.15098 17.975C6.03848 17.6875 5.55098 16.8 5.12598 16.5625C4.77598 16.375 4.27598 15.9125 5.11348 15.9C5.90098 15.8875 6.46348 16.625 6.65098 16.925C7.55098 18.4375 8.98848 18.0125 9.56348 17.75C9.65098 17.1 9.91348 16.6625 10.201 16.4125C7.97598 16.1625 5.65098 15.3 5.65098 11.475C5.65098 10.3875 6.03848 9.4875 6.67598 8.7875C6.57598 8.5375 6.22598 7.5125 6.77598 6.1375C6.77598 6.1375 7.61348 5.875 9.52598 7.1625C10.326 6.9375 11.176 6.825 12.026 6.825C12.876 6.825 13.726 6.9375 14.526 7.1625C16.4385 5.8625 17.276 6.1375 17.276 6.1375C17.826 7.5125 17.476 8.5375 17.376 8.7875C18.0135 9.4875 18.401 10.375 18.401 11.475C18.401 15.3125 16.0635 16.1625 13.8385 16.4125C14.201 16.725 14.5135 17.325 14.5135 18.2625C14.5135 19.6 14.501 20.675 14.501 21.0125C14.501 21.275 14.6885 21.5875 15.1885 21.4875C19.259 20.1133 21.9999 16.2963 22.001 12C22.001 6.475 17.526 2 12.001 2Z">
+                </path>
+              </svg>
+              <span>Ver no GitHub</span>
+            </a>
+          </div>
+        </div>
+        <div class="projects__row">
+          <div class="projects__row-img-cont">
+            <img src="./assets/png/carrinho_compras.png" alt="Software Screenshot" class="projects__row-img"
+              loading="lazy" />
+          </div>
+          <div class="projects__row-content">
+            <h3 class="projects__row-content-title">Carrinho de Compras</h3>
+            <p class="projects__row-content-desc">
+              Sistema web composto por dois formulários: o primeiro permite o cadastro de produtos e exibe uma tabela
+              com todos os itens disponíveis; o segundo possibilita adicionar produtos ao carrinho de compras por meio
+              do código do produto, facilitando a realização de pedidos.
+            </p>
+            <a href="https://github.com/SamukaCode/carrinho_de_compras" target="_blank" class="btn-github">
+              <svg viewBox="0 0 24 24" fill="currentColor" height="28" width="28" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M12.001 2C6.47598 2 2.00098 6.475 2.00098 12C2.00098 16.425 4.86348 20.1625 8.83848 21.4875C9.33848 21.575 9.52598 21.275 9.52598 21.0125C9.52598 20.775 9.51348 19.9875 9.51348 19.15C7.00098 19.6125 6.35098 18.5375 6.15098 17.975C6.03848 17.6875 5.55098 16.8 5.12598 16.5625C4.77598 16.375 4.27598 15.9125 5.11348 15.9C5.90098 15.8875 6.46348 16.625 6.65098 16.925C7.55098 18.4375 8.98848 18.0125 9.56348 17.75C9.65098 17.1 9.91348 16.6625 10.201 16.4125C7.97598 16.1625 5.65098 15.3 5.65098 11.475C5.65098 10.3875 6.03848 9.4875 6.67598 8.7875C6.57598 8.5375 6.22598 7.5125 6.77598 6.1375C6.77598 6.1375 7.61348 5.875 9.52598 7.1625C10.326 6.9375 11.176 6.825 12.026 6.825C12.876 6.825 13.726 6.9375 14.526 7.1625C16.4385 5.8625 17.276 6.1375 17.276 6.1375C17.826 7.5125 17.476 8.5375 17.376 8.7875C18.0135 9.4875 18.401 10.375 18.401 11.475C18.401 15.3125 16.0635 16.1625 13.8385 16.4125C14.201 16.725 14.5135 17.325 14.5135 18.2625C14.5135 19.6 14.501 20.675 14.501 21.0125C14.501 21.275 14.6885 21.5875 15.1885 21.4875C19.259 20.1133 21.9999 16.2963 22.001 12C22.001 6.475 17.526 2 12.001 2Z">
+                </path>
+              </svg>
+              <span>Ver no GitHub</span>
+            </a>
+          </div>
+        </div>
+        <div class="projects__row">
+          <div class="projects__row-img-cont">
+            <img src="./assets/png/site_stranger.png" alt="Software Screenshot" class="projects__row-img"
+              loading="lazy" />
+          </div>
+          <div class="projects__row-content">
+            <h3 class="projects__row-content-title">Stranger Things</h3>
+            <p class="projects__row-content-desc">
+              Site desenvolvido para fãs da série Stranger Things, que permite acompanhar a história de cada temporada e
+              conhecer mais sobre seus personagens.
+            </p>
+            <a href="https://github.com/SamukaCode/StrangerThings" target="_blank" class="btn-github">
+              <svg viewBox="0 0 24 24" fill="currentColor" height="28" width="28" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M12.001 2C6.47598 2 2.00098 6.475 2.00098 12C2.00098 16.425 4.86348 20.1625 8.83848 21.4875C9.33848 21.575 9.52598 21.275 9.52598 21.0125C9.52598 20.775 9.51348 19.9875 9.51348 19.15C7.00098 19.6125 6.35098 18.5375 6.15098 17.975C6.03848 17.6875 5.55098 16.8 5.12598 16.5625C4.77598 16.375 4.27598 15.9125 5.11348 15.9C5.90098 15.8875 6.46348 16.625 6.65098 16.925C7.55098 18.4375 8.98848 18.0125 9.56348 17.75C9.65098 17.1 9.91348 16.6625 10.201 16.4125C7.97598 16.1625 5.65098 15.3 5.65098 11.475C5.65098 10.3875 6.03848 9.4875 6.67598 8.7875C6.57598 8.5375 6.22598 7.5125 6.77598 6.1375C6.77598 6.1375 7.61348 5.875 9.52598 7.1625C10.326 6.9375 11.176 6.825 12.026 6.825C12.876 6.825 13.726 6.9375 14.526 7.1625C16.4385 5.8625 17.276 6.1375 17.276 6.1375C17.826 7.5125 17.476 8.5375 17.376 8.7875C18.0135 9.4875 18.401 10.375 18.401 11.475C18.401 15.3125 16.0635 16.1625 13.8385 16.4125C14.201 16.725 14.5135 17.325 14.5135 18.2625C14.5135 19.6 14.501 20.675 14.501 21.0125C14.501 21.275 14.6885 21.5875 15.1885 21.4875C19.259 20.1133 21.9999 16.2963 22.001 12C22.001 6.475 17.526 2 12.001 2Z">
+                </path>
+              </svg>
+              <span>Ver no GitHub</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="contact" class="contact sec-pad dynamicBg">
+    <div class="main-container">
+      <h2 class="heading heading-sec heading-sec__mb-med">
+        <span class="heading-sec__main heading-sec__main--lt">Contato</span>
+        <span class="heading-sec__sub heading-sec__sub--lt">
+          Gostou do meu trabalho? Vamos conversar!
+          Seja para desenvolver um projeto sob medida ou discutir uma nova oportunidade, estou à disposição nos canais
+          abaixo.
+        </span>
+      </h2>
+      <!-- BLOCO DE CONTATOS (mantém o fundo existente da .contact) -->
+      <div class="contact-cards">
+        <!-- E-mail -->
+        <a class="contact-card" href="mailto:samuelpcamargo2005@gmail.com">
+          <span class="contact-card__icon" aria-hidden="true">
+            <!-- email (inline svg para não depender de arquivo) -->
+            <svg viewBox="0 0 24 24" width="26" height="26" fill="currentColor" role="img">
+              <path
+                d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2Zm0 2v.01L12 12 4 6.01V6h16ZM4 18V8.26l7.4 5.55a1.5 1.5 0 0 0 1.8 0L20 8.26V18H4Z" />
+            </svg>
           </span>
-        </h2>
+          <strong class="contact-card__title">E-mail</strong>
+          <span class="contact-card__text">samuelpcamargo2005@gmail.com</span>
+        </a>
 
-        <div class="projects__content">
-          <div class="projects__row">
-            <div class="projects__row-img-cont">
-              <img
-                src="./assets/jpeg/project-mockup-example.jpeg"
-                alt="Software Screenshot"
-                class="projects__row-img"
-                loading="lazy"
-              />
-            </div>
-            <div class="projects__row-content">
-              <h3 class="projects__row-content-title">Sunfi</h3>
-              <p class="projects__row-content-desc">
-                Contributed to the development of the backend infrastructure
-                for this energy platform using django/python.
-              </p>
-              <a
-                href="https://www.sunfi.co/"
-                class="btn btn--med btn--theme dynamicBgClr"
-                target="_blank"
-                >Visit</a
-              >
-            </div>
-          </div>
-          <div class="projects__row">
-            <div class="projects__row-img-cont">
-              <img
-                src="./assets/jpeg/project-mockup-example.jpeg"
-                alt="Software Screenshot"
-                class="projects__row-img"
-                loading="lazy"
-              />
-            </div>
-            <div class="projects__row-content">
-              <h3 class="projects__row-content-title">Afropelo Care</h3>
-              <p class="projects__row-content-desc">
-                Created the website using django 3, python and bootstrap
-                to add products and display them via the site hosted on heroku.
-              </p>
-              <a
-                href="http://afropelo.com/"
-                class="btn btn--med btn--theme dynamicBgClr"
-                target="_blank"
-                >Visit</a
-              >
-            </div>
-          </div>
-          <div class="projects__row">
-            <div class="projects__row-img-cont">
-              <img
-                src="./assets/jpeg/project-mockup-example.jpeg"
-                alt="Software Screenshot"
-                class="projects__row-img"
-                loading="lazy"
-              />
-            </div>
-            <div class="projects__row-content">
-              <h3 class="projects__row-content-title">OpenStack</h3>
-              <p class="projects__row-content-desc">
-                Contributed to the development and documentation of
-                Ansible collections to support bare metal nodes.
-                Reviewed code and reported useful bugs.
-              </p>
-              <a
-                href="https://review.opendev.org/q/owner:tosinfarai%2540gmail.com"
-                class="btn btn--med btn--theme dynamicBgClr"
-                target="_blank"
-                >Visit</a
-              >
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section id="contact" class="contact sec-pad dynamicBg">
-      <div class="main-container">
-        <h2 class="heading heading-sec heading-sec__mb-med">
-          <span class="heading-sec__main heading-sec__main--lt">Contact</span>
-          <span class="heading-sec__sub heading-sec__sub--lt">
-            Do I have what you're looking for?
-            <br>Or would you like to discuss ideas with me?
-            <br>My Email is always <strong>open</strong>
+        <!-- Telefone / WhatsApp -->
+        <a class="contact-card" href="https://wa.me/5519996298190" target="_blank" rel="noopener">
+          <span class="contact-card__icon" aria-hidden="true">
+            <!-- phone -->
+            <svg viewBox="0 0 24 24" width="26" height="26" fill="currentColor" role="img">
+              <path
+                d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l1.8-1.8a1 1 0 0 1 1.02-.24c1.11.37 2.31.57 3.54.57a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1C11.61 21 3 12.39 3 2a1 1 0 0 1 1-1h2.02a1 1 0 0 1 1 1c0 1.23.2 2.43.57 3.54a1 1 0 0 1-.24 1.02L6.6 10.8Z" />
+            </svg>
           </span>
-        </h2>
-        <div class="contact__form-container">
-          <form action="#" class="contact__form">
-            <div class="contact__form-field">
-              <label class="contact__form-label" for="name">Name</label>
-              <input
-                required
-                placeholder="Enter Your Name"
-                type="text"
-                class="contact__form-input"
-                name="name"
-                id="name"
-              />
-            </div>
-            <div class="contact__form-field">
-              <label class="contact__form-label" for="email">Email</label>
-              <input
-                required
-                placeholder="Enter Your Email"
-                type="text"
-                class="contact__form-input"
-                name="email"
-                id="email"
-              />
-            </div>
-            <div class="contact__form-field">
-              <label class="contact__form-label" for="message">Message</label>
-              <textarea
-                required
-                cols="30"
-                rows="10"
-                class="contact__form-input"
-                placeholder="Enter Your Message"
-                name="message"
-                id="message"
-              ></textarea>
-            </div>
-            <button type="submit" class="btn btn--theme contact__btn">
-              Submit
-            </button>
-          </form>
-        </div>
-      </div>
-    </section>
-    <footer class="main-footer">
-      <div class="main-container">
-        <div class="main-footer__upper">
-          <div class="main-footer__row main-footer__row-1">
-            <h2 class="heading heading-sm main-footer__heading-sm">
-              <span>Social</span>
-            </h2>
-            <div class="main-footer__social-cont">
-              <a target="_blank" rel="noreferrer" href="#">
-                <img
-                  class="main-footer__icon"
-                  src="./assets/png/linkedin-ico.png"
-                  alt="icon"
-                />
-              </a>
-              <a target="_blank" rel="noreferrer" href="#">
-                <img
-                  class="main-footer__icon"
-                  src="./assets/png/github-ico.png"
-                  alt="icon"
-                />
-              </a>
-              <a target="_blank" rel="noreferrer" href="#">
-                <img
-                  class="main-footer__icon"
-                  src="./assets/png/twitter-ico.png"
-                  alt="icon"
-                />
-              </a>
-              <a target="_blank" rel="noreferrer" href="#">
-                <img
-                  class="main-footer__icon"
-                  src="./assets/png/yt-ico.png"
-                  alt="icon"
-                />
-              </a>
-              <a target="_blank" rel="noreferrer" href="#">
-                <img
-                  class="main-footer__icon main-footer__icon--mr-none"
-                  src="./assets/png/insta-ico.png"
-                  alt="icon"
-                />
-              </a>
-            </div>
-          </div>
-          <div class="main-footer__row main-footer__row-2">
-            <h4 class="heading heading-sm text-lt">Tosin Farai</h4>
-            <!-- <p class="main-footer__short-desc">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit facilis
-              tempora explicabo quae quod deserunt
-            </p> -->
-          </div>
-        </div>
+          <strong class="contact-card__title">WhatsApp</strong>
+          <span class="contact-card__text">(19) 99629-8190</span>
+        </a>
 
-        <!-- If you give me some credit or shoutout here by linking to my website, then it will be a big thing for me and will help me a lot :) -->
-        <div class="main-footer__lower">
-          &copy; Copyright 2021. Template by
-          <a rel="noreferrer" target="_blank" href="https://rammaheshwari.com"
-            >Ram Maheshwari</a
-          >
-        </div>
-      </div>
-    </footer>
+        <!-- LinkedIn -->
+        <a class="contact-card" href="https://www.linkedin.com/in/samuel--camargo/" target="_blank" rel="noopener">
+          <span class="contact-card__icon" aria-hidden="true">
+            <img src="./assets/png/linkedin-ico.png" alt="" />
+          </span>
+          <strong class="contact-card__title">LinkedIn</strong>
+          <span class="contact-card__text">@samuel--camargo</span>
+        </a>
 
-    <script src="./index.js"></script>
-  </body>
+        <!-- GitHub -->
+        <a class="contact-card" href="https://github.com/SamukaCode" target="_blank" rel="noopener">
+          <span class="contact-card__icon" aria-hidden="true">
+            <img src="./assets/png/github-ico.png" alt="" />
+          </span>
+          <strong class="contact-card__title">GitHub</strong>
+          <span class="contact-card__text">@SamukaCode</span>
+        </a>
+      </div>
+
+    </div>
+  </section>
+  <footer class="main-footer">
+    <div class="main-container">
+      <div class="main-footer__lower">
+        &copy; <span id="year"></span> Todos os direitos reservados.<br> Desenvolvido por
+        <a rel="noreferrer" target="_blank" href="https://samuelcamargo.com">Samuel Camargo</a>.
+      </div>
+    </div>
+  </footer>
+
+  <script src="./index.js"></script>
+</body>
+
 </html>
