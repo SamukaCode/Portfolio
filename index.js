@@ -1,3 +1,8 @@
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-BVPM85W80T');
+
 document.getElementById("year").textContent = new Date().getFullYear();
 
 const hamMenuBtn = document.querySelector('.header__main-ham-menu-cont')
